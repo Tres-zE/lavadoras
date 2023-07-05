@@ -1,0 +1,10 @@
+.encabezado{
+    background-image: url(/img/principal.jpg);
+     /*altura
+     height: 20rem;*/
+     /*tomar todo el espacio disponible*/
+     background-size: cover;
+     background-repeat: no-repeat;
+     /*se debe ver la imagen central cuando cambie de resolucion*/
+     /*background-position: center center;vertical horizontal*/
+ }
