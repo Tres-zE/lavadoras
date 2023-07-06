@@ -1,8 +1,8 @@
 .encabezado{
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),url(/img/principal.jpg);
-     /*altura
-     height: 50rem;*/
+     /*altura*/
+     height: 30rem;
      /*tomar todo el espacio disponible*/
      background-size: cover;
      background-repeat: no-repeat;
@@ -34,4 +34,9 @@
 
 
  /*----------------------------------------------------------------------------------*/
- 
+ @media  (max-width:684px) {
+    .encabezado{
+        min-height: 10vh;
+    }
+    
+ }
