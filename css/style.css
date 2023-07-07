@@ -2,10 +2,8 @@
     --fuenteHeading: 'PT Sans', sans-serif;
     --fuenteParrafos: 'Open Sans', sans-serif;
 
-    --primario: #784d3c;/*cafe*/
     --blanco: #ffffff;
     --negro: #000000;
-    --gris: #494545;
 }
 
 html{
@@ -20,18 +18,10 @@ html{
 
 body{
     font-family: var(--fuenteParrafos);
-    font-size: 1.6rem;
+    font-size: 2rem;
     /*interlineado*/
     line-height: 2;
     background-color: #f0e8e8fd;
-}
-
-/*globales*/
-.contenedor{
-    max-width: 120rem;
-    width: 90%;
-    /*central horizontal*/
-    margin: 0 auto;
 }
 
 a{
@@ -50,7 +40,7 @@ h2{
     font-size: 4rem;
 }
 h3{
-    font-size: 3.2rem;
+    font-size: 3.5rem;
 }
 h4{
     font-size: 2.8rem; 

@@ -1,0 +1,43 @@
+.pie{
+    background-color: var(--negro);
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    
+}
+
+.pie_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pie_list{
+    color: #faf0f0;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.pie_list li{
+    display: inline-block;
+    padding: 15px 80px;
+}
+
+.pie_list li:hover{
+    transform: scale(1.1);
+ }
+
+ .pie_list a:hover{
+    color: #1275d1;
+ }
+
+
+@media  (max-width:684px) {
+
+   .pie_list{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding: 30px;
+   }
+}

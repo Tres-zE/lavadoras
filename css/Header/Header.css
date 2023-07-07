@@ -18,6 +18,10 @@
     color: var(--blanco);
  }
 
+ h1 .resaltar{
+   font-weight: bold;
+ }
+
  .encabezado .nav_list{
     padding-bottom: 60px;
  }
@@ -27,10 +31,18 @@
     display: inline-block;
  }
 
+ .encabezado .nav_list li:hover{
+   transform: scale(1.1);
+}
+
  .encabezado .nav_list a{
     color: #faf0f0;
     font-weight: 700;
     font-size: 30px;
+ }
+
+ .encabezado .nav_list a:hover{
+   color: #1275d1;
  }
 
 

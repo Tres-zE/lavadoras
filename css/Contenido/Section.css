@@ -1,0 +1,11 @@
+.parrafo_contenido{
+    margin-right: 6rem;
+    margin-left: 6rem;
+    padding: 3rem;
+    display: grid;
+    justify-items: center;
+}
+
+.resaltar{
+    font-weight: bold;
+}
