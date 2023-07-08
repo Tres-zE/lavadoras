@@ -31,18 +31,20 @@
     }
 
     .img_ahorro{
-        max-width: 100%;
-    }
-
-    .img_reparacion{
-        max-width: 42vh;
+        max-width: 80%;
     }
 
     .img_costos{
-        max-width: 48vh;
+        max-width: 75%;
     }
 
+    .img_reparacion{
+        max-width: 80%;
+    }
+
+    
+
     .img_mantenimiento, .img_sostenibilidad{
-        max-width: 50vh;
+        max-width: 90%;
     }
  }
