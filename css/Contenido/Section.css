@@ -9,3 +9,40 @@
 .resaltar{
     font-weight: bold;
 }
+
+.img_ahorro{
+    max-width:50%;
+    border-radius: 25px;
+}
+
+.img_costos{
+    max-width:40%;
+    border-radius: 25px;
+}
+
+.img_reparacion, .img_mantenimiento, .img_sostenibilidad{
+    max-width:50%;
+    border-radius: 25px;
+} 
+
+@media  (max-width:684px) {
+    .parrafo_contenido{
+        text-align:center!important ;
+    }
+
+    .img_ahorro{
+        max-width: 100%;
+    }
+
+    .img_reparacion{
+        max-width: 42vh;
+    }
+
+    .img_costos{
+        max-width: 48vh;
+    }
+
+    .img_mantenimiento, .img_sostenibilidad{
+        max-width: 50vh;
+    }
+ }
